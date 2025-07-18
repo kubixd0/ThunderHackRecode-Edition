@@ -1,50 +1,75 @@
-Kurulum ;
+# ThunderHack Recode Edition (By kubixd0)
 
-Buradan hileyi, Fabric API'yi ve Fabric Installer indiriyoruz.
+⚡ Gelişmiş bir PvP modudur. Orijinal ThunderHack'in geliştirilmiş ve kont güvenliğine odaklanmış bir versiyonudur.
 
-ThunderHack : https://github.com/kubixd0/ThunderHackRecode-Edition
+---
 
-ThunderHack OpenSRC : https://github.com/Pan4ur/ThunderHack-Recode
+## 🧩 Kurulum
 
-Fabric API : https://modrinth.com/mod/fabric-api
+### Gerekli Dosyalar:
 
-Fabric Installer : https://fabricmc.net/use/installer/
+- 🔗 [ThunderHack (Recode Edition)](https://github.com/kubixd0/ThunderHackRecode-Edition)
+- 🔗 [ThunderHack Orijinal (OpenSRC)](https://github.com/Pan4ur/ThunderHack-Recode)
+- 🔗 [Fabric API (Modrinth)](https://modrinth.com/mod/fabric-api)
+- 🔗 [Fabric Installer](https://fabricmc.net/use/installer/)
 
-Önce Fabric Installer ile oynayacağımız sürümün Fabric sürümünü yüklüyoruz.
+### Adımlar:
 
-Ardından "ThunderHack" & "Fabric API'yi" "mods" klasörüne atıyoruz.
+1. **Fabric Installer** ile oynayacağınız sürümün Fabric sürümünü kurun.  
+2. `ThunderHack` ve `Fabric API` dosyalarını `.minecraft/mods` klasörüne atın.  
+3. Düşük sürüm desteği gerekiyorsa `ViaFabricPlus` kurabilirsiniz.  
+4. Minecraft sürüm ekranından **Fabric** profilini seçin.  
+5. Oyuna girin, BOOM! 🎉
 
-Eğer daha düşük sürümler de kullanmak istiyorsanız ViaFabricPlus eklentisini indirebilirsiniz.
+---
 
-Minecraftın versiyon seçme kısmından Fabric seçiyoruz ve giriyoruz boom!
+## 🆚 Orijinaline Göre Farklar
 
-​Orijinalinden ne farkı var?
+1. **Gizlilik:**  
+   Orijinal sürüm `.minecraft/ThunderHackRecode` klasörüne dosya açarken, bu sürüm `.minecraft/Feather` klasörünü kullanır. Bu da kontrollerde yakalanma riskini azaltır.
 
-1 - Orijinalinde .minecraft klasörünün içerisine "ThunderHackRecode" diye bir dosya açıyor ve bunun yüzünden kont esnasında yakalanabiliyoruz bunda ise .minecraft klasörünün içerisine "Feather" olarak dosya açıyor.
+2. **Mod Menü Adı:**  
+   Orijinalde “ThunderHack” olarak görünürken, bu sürümde **ThunderGUI** ismini alır. Açıklamada “ThunderGUI for PvP Player” yazar.
 
-2 - Orijinalinde Mod Menü'de "ThunderHack" olarak geçiyor ve açıklamasında hile olduğu belli oluyor bunda ise "ThunderGUI" yazıyor ve açıklamada "ThunderGUI for PvP Player" yazıyor.
+3. **UnHook Özelliği:**  
+   Konta çağırıldığınızda hileyi anında devre dışı bırakabilirsiniz. Bu sayede kontrollerden temiz çıkabilirsiniz.
 
-3 - Konta çağırıldığınız da "UnHook" özelliği ile hileyi komple kapatabiliyorsunuz bu sayede kontta temiz çıkıyorsunuz.
+---
 
-Videolu Kurulum ;
+## 🎥 Videolu Kurulum
 
-https://streamable.com/y1jw66
-GUI ;
+📺 [Kurulum Videosu (Streamable)](https://streamable.com/y1jw66)
 
-GUI "P" tuşu ile açılıyor.
+---
 
-Oyun içi bir kaç video ;
+## 🖥️ GUI Kullanımı
 
-https://streamable.com/885kjk
+- GUI ekranını **P** tuşu ile açabilirsiniz.
 
-https://streamable.com/ezrvdj
+---
 
-https://streamable.com/066cla
+## 🎮 Oyun İçi Örnek Videolar
 
-https://streamable.com/r866lf
+- 🔹 [Video 1](https://streamable.com/885kjk)  
+- 🔹 [Video 2](https://streamable.com/ezrvdj)  
+- 🔹 [Video 3](https://streamable.com/066cla)  
+- 🔹 [Video 4](https://streamable.com/r866lf)
 
-Config ;
+---
 
-https://gofile.io/d/vUqJES
+## ⚙️ Config Kurulumu
 
-"%appdata% > .minecraft > Feather > configs" kısmına atınız ve oyun içi "@config load wasd" yazarak kullanabilirsiniz.
+📁 Config İndir: [GoFile Linki](https://gofile.io/d/vUqJES)
+
+1. Dosyayı `%appdata% > .minecraft > Feather > configs` klasörüne yerleştirin.  
+2. Oyuna girdikten sonra chate:  
+@config load wasd
+yazarak config'i yükleyebilirsiniz.
+
+---
+
+## 📌 Not
+
+> Bu yazılım yalnızca eğitim ve geliştirme amaçlıdır. Sunucularda kullanım kuralları ihlal edebilir. Sorumluluk kullanıcıya aittir.
+
+---
